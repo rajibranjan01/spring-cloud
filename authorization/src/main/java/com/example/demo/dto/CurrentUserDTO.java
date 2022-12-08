@@ -1,6 +1,8 @@
-package com.example.demo;
+package com.example.demo.dto;
 
 import java.util.Set;
+
+import com.example.demo.model.Role;
 
 /**
  * @author ActifyDataLabs

@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import java.security.Principal;
 import java.util.List;
@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.dto.CurrentUserDTO;
+import com.example.demo.model.User;
+import com.example.demo.service.UserService;
 
 /**
  * @author ActifyDataLabs
